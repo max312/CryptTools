@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efe18f8c-4c5e-4199-8657-f0a15255be75" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Crypt.iws" />
@@ -40,7 +40,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="214" column="17" selection-start="2642" selection-end="2642" vertical-scroll-proportion="6.5314183" vertical-offset="0" max-vertical-offset="3740">
+            <state line="94" column="4" selection-start="1150" selection-end="1150" vertical-scroll-proportion="1.4578097" vertical-offset="786" max-vertical-offset="1700">
               <folding />
             </state>
           </provider>
@@ -322,7 +322,11 @@
       <created>1387629810985</created>
       <updated>1387629810985</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added .gitignore">
+      <created>1387630052523</created>
+      <updated>1387630052523</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -378,7 +382,8 @@
     </option>
     <MESSAGE value="Minor typos fixed" />
     <MESSAGE value="Changed Filename" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed Filename" />
+    <MESSAGE value="Added .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added .gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -432,7 +437,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="214" column="17" selection-start="2642" selection-end="2642" vertical-scroll-proportion="6.5314183" vertical-offset="0" max-vertical-offset="3740">
+        <state line="94" column="4" selection-start="1150" selection-end="1150" vertical-scroll-proportion="1.4578097" vertical-offset="786" max-vertical-offset="1700">
           <folding />
         </state>
       </provider>
