@@ -1,1 +1,1 @@
-ABCDE
+Ich bin eine Testdatei!

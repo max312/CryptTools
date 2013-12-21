@@ -39,5 +39,7 @@ outputFile = open(fileChooser2, "w");
 string = inputFile.read();
 num = int(input("Number of Rotates: "));
 outputFile.write(rot(string, num))
-saveFile = "Your rotated String is saved to "
-showinfo("Info", saveFile+fileChooser2)
+saveText = "Your rotated String is saved to "
+showinfo("Info", saveText+fileChooser2)
+authorText = "This tool is brought to you by "
+showinfo("Author", authorText+__author__)
