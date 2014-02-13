@@ -9,7 +9,6 @@ More to come.
 ====
 
 caesar.py
-
 ====
 
 caesar.py is a simple tool to rotate the characters of a string or text
@@ -21,7 +20,6 @@ caesar.py includes tkinter to provide a simple interface for choosing file input
 =====
 
 vigenere.py
-
 ====
 
 vigenere.py is a more advanced tool than caesar.py.
@@ -32,7 +30,6 @@ CLI intructions:
   - python vigenere.py -t <"TEXT"|PATHNAME> -k <KEY>
   - Don't forget the "" if you have a text longer than 1 word!
   - add "-a" to the end to analyze the frequency of characters
-
 
 ====
 
