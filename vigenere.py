@@ -1,5 +1,8 @@
-import sys
+# coding=utf-8
+
+
 import string
+import sys
 
 points = string.punctuation
 numbers = string.digits
@@ -22,22 +25,23 @@ def encode(char, key):
     return swap['to'][res]
 
 
-## DEFINING
+# DEFINING
 setup('a', 26)
 setup("A", 26, 26)
 keyin = 0
+text = ""
 ctext = ""
-## INPUT
+# INPUT
 if sys.argv[1] == "-t":
     if ".txt" in sys.argv[2]:
-        daten = open(sys.argv[2], "r")
+        daten = open(sys.argv[2])
         text = daten.read()
     else:
         text = sys.argv[2]
 if sys.argv[3] == "-k":
     keytext = sys.argv[4]
 
-## MAIN
+# MAIN
 for c in text:
     if c == " ":
         ctext += c
@@ -59,7 +63,7 @@ if sys.argv[5] == "-a":
     print(num)
 
 daten = open("output.txt", 'w')
-daten.write(ctext);
+daten.write(ctext)
 daten = open("output.txt")
 print("Geheimtext: ", daten.read())
 print(ctext.count("?"))

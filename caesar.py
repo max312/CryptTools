@@ -1,7 +1,8 @@
+# coding=utf-8
+
+import string
 from tkinter.filedialog import askopenfilename
 from tkinter.messagebox import *
-import string
-
 
 LOWER_LETTERS = string.ascii_lowercase
 UPPER_LETTERS = string.ascii_uppercase
@@ -28,7 +29,7 @@ def encrypt(char, alpha, num):
 
 
 fileChooser = askopenfilename()
-inputFile = open(fileChooser, "r")
+inputFile = open(fileChooser)
 fileChooser2 = askopenfilename()
 outputFile = open(fileChooser2, "w")
 
